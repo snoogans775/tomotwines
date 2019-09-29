@@ -1,0 +1,76 @@
+.bg {
+  position: absolute;
+	left: 25%;
+	width: 50%;
+	margin: auto;
+}
+
+div div a {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.bg div {
+	/* border: 1px solid;*/ /* enable for debugging */
+}
+
+/* div id's for each link */
+
+#kevin {
+	position: absolute;
+	top: 160px;
+	left: 30px;
+	width: 115px;
+	height: 230px;
+}
+
+#shaolin {
+	position: absolute;
+	top: 20px;
+	left: 140px;
+	width: 240px;
+	height: 90px;
+}
+
+#sarah {
+	position: absolute;
+	top: 115px;
+	left: 150px;
+	width: 110px;
+	height: 240px;
+}
+
+#liz {
+	position: absolute;
+	top: 190px;
+	left: 280px;
+	width: 115px;
+	height: 200px;
+}
+
+#jessica {
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	width: 100px;
+	height: 280px;
+}
+
+#ben {
+	position: absolute;
+	top: 80px;
+	left: 505px;
+	width: 120px;
+	height: 310px;
+}
+#link {
+	position: absolute;
+	top: 4 20px;
+	left: 130px;
+	width: 400px;
+	height: 60px;
+}
+}

@@ -1,0 +1,21 @@
+<!-- !DOCTYPE HTML -->
+<HTML>
+	<head>
+	<title>Talkify</title>
+<script src="/Talkify/dist/talkify.js"></script>
+	</head>
+	<body>
+		<p>Help me</p>
+		<script>
+    var player = new talkify.TtsPlayer().enableTextHighlighting();
+
+    new talkify.playlist()
+        .begin()
+        .usingPlayer(player)
+        .withTextInteraction()
+        .withElements(document.querySelectorAll('p')) //<--Any element you'd like. Leave blank to let Talkify make a good guess
+        .build() //<-- Returns an instance.
+        .play();
+		</script>
+			</body>
+		</HTML>
