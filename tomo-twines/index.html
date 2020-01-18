@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Tomo Twines</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+	<script>
+		function highlight(divName) {
+			document.getElementById(divName + "Img").setAttribute("class", "highlight");
+		}
+
+		function set(divName) {
+			document.getElementById(divName + "Img").setAttribute("class", "default");
+		}
+	</script>
+
+</head>
+<body>
+	<div class="bg">
+
+		<!-- Absolutely positioned images for each Tomo -->
+		<div id="kevinImg" class="set">   <img src="img/kevin.png"/> </div>
+		<div id="shaolinImg" class="set"> <img src="img/shaolin.png"/> </div>
+		<div id="saraImg" class="set">    <img src="img/sara.png"/> </div>
+		<div id="lizImg" class="set">     <img src="img/liz.png"/> </div>
+		<div id="jessicaImg" class="set"> <img src="img/jessica.png"/> </div>
+		<div id="benImg" class="set">     <img src="img/ben.png"/> </div>
+		<div id="logoImg" class="set">    <img src="img/tomologo.png"/> </div>
+		
+		<!-- Selectable areas for each Tomo -->
+		<div id="kevin" onmouseenter="highlight('kevin')" onmouseout="set('kevin')">
+			<a href="twines/KEVIN.html" />
+		</div>
+		<div id="shaolin" onmouseenter="highlight('shaolin')" onmouseout="set('shaolin')">
+			<a href="twines/shaolin-showdown.html" />
+		</div>
+		<div id="sara" onmouseenter="highlight('sara')" onmouseout="set('sara')">
+			<a href="twines/sarah-no-densetsu.html" />
+		</div>
+		<div id="liz" onmouseenter="highlight('liz')" onmouseout="set('liz')">
+			<a href="twines/alphliz.html" />
+		</div>
+		<div id="jessica" onmouseenter="highlight('jessica')" onmouseout="set('jessica')">
+			<a href="twines/jessica-in-japan.html" />
+		</div>
+		<div id="ben" onmouseenter="highlight('ben')" onmouseout="set('ben')">
+			<a href="twines/ben-the-enchanter.html" />
+		</div>
+		<div id="logo" onmouseenter="highlight('logo')" onmouseout="set('logo')">
+			<a href="http://tomoclub.bandcamp.com/" />
+		</div>
+	</div>
+</body>
+</html>
+
+<!--#echo var="DATE_LOCAL" --> 
+				
+				
