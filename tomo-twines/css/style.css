@@ -1,7 +1,7 @@
 .bg {
-  position: absolute;
+    position: absolute;
 	left: 25%;
-	width: 50%;
+	width: 600px;
 	margin: auto;
 }
 
@@ -21,6 +21,17 @@ a, a:active, a:focus {
    outline: none;
 }
 
+/* Detect mobile */
+@media (pointer:none), (pointer:coarse) {
+	.bg {
+		position:absolute;
+		width: 80%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+}
+
 /* div id's for each selectable area */
 
 #kevin {
@@ -31,11 +42,19 @@ a, a:active, a:focus {
 	height: 230px;
 }
 
-#shaolin {
+#shaolinHigh {
 	position: absolute;
 	top: 10px;
 	left: 130px;
 	width: 260px;
+	height: 100px;
+}
+
+#shaolinLow {
+	position: absolute;
+	top: 110px;
+	left: 260px;
+	width: 50px;
 	height: 100px;
 }
 
@@ -44,7 +63,7 @@ a, a:active, a:focus {
 	top: 115px;
 	left: 150px;
 	width: 110px;
-	height: 240px;
+	height: 260px;
 }
 
 #liz {
@@ -82,15 +101,13 @@ a, a:active, a:focus {
 /* div id for corresponding images */
 
 .set {
-	filter: hue-rotate(0deg);
+	filter: saturate(1);
 
 }
 
 .highlight {
 	-webkit-animation-name: highlight;
 	-webkit-animation-duration: 0.5s;
-	moz-animation-name: highlight;
-	moz-animation-duration: 0.5s;
 	animation-name: highlight;
 	animation-duration: 0.5s;
 	

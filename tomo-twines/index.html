@@ -5,15 +5,7 @@
 	<title>Tomo Twines</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 
-	<script>
-		function highlight(divName) {
-			document.getElementById(divName + "Img").setAttribute("class", "highlight");
-		}
-
-		function set(divName) {
-			document.getElementById(divName + "Img").setAttribute("class", "default");
-		}
-	</script>
+	<script src="tomo-twines.js"></script>
 
 </head>
 <body>
@@ -32,7 +24,10 @@
 		<div id="kevin" onmouseenter="highlight('kevin')" onmouseout="set('kevin')">
 			<a href="twines/KEVIN.html" />
 		</div>
-		<div id="shaolin" onmouseenter="highlight('shaolin')" onmouseout="set('shaolin')">
+		<div id="shaolinHigh" onmouseenter="highlight('shaolin')" onmouseout="set('shaolin')">
+			<a href="twines/shaolin-showdown.html" />
+		</div>
+		<div id="shaolinLow" onmouseenter="highlight('shaolin')" onmouseout="set('shaolin')">
 			<a href="twines/shaolin-showdown.html" />
 		</div>
 		<div id="sara" onmouseenter="highlight('sara')" onmouseout="set('sara')">
