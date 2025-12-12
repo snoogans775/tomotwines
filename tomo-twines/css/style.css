@@ -108,8 +108,10 @@ a, a:active, a:focus {
 .highlight {
 	-webkit-animation-name: highlight;
 	-webkit-animation-duration: 0.5s;
+	-webkit-animation-iteration-count: infinite;
 	animation-name: highlight;
 	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
 	
 }
 
